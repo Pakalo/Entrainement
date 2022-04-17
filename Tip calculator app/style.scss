@@ -1,0 +1,85 @@
+//- Very dark cyan: hsl(183, 100%, 15%)
+//- Dark grayish cyan: hsl(186, 14%, 43%)
+//- Grayish cyan: hsl(184, 14%, 56%)
+//- Light grayish cyan: hsl(185, 41%, 84%)
+//- Very light grayish cyan: hsl(189, 41%, 97%)
+
+
+
+
+
+
+*{
+  background-color: transparent;
+  font-family: 'Space Mono', monospace;
+}
+body{
+  background-color: hsl(185, 41%, 84%);
+}
+
+header{
+  margin-bottom: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h3{
+  color: hsl(186, 14%, 43%);
+  font-size: 12px;
+}
+
+div{
+  &.main{
+    background-color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  &.input{
+    background-color: #F3F8FB;
+    border-radius: 5px;
+    height: 35px;
+    width: 350px;
+    display: flex;
+  }
+  &.tip-box{
+    width: 350px;
+    grid-gap: 15px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
+}
+
+input{
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 0;
+  &.imp{
+    width: 100%;
+  }
+  &.custom{
+    background-color: #F3F8FB;
+    border-radius: 8px;
+  }
+}
+img{
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: transparent;
+  height: 50%;
+  margin-left: 15px;
+}
+
+button{
+  &.tip{
+    height: 35px;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    border-color: transparent;
+  }
+}
