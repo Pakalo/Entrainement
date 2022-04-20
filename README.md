@@ -2,4 +2,4 @@ Bienvenu sur ma page de projets  d'entrainent, vous y retrouverez des projets di
 
 |Lien vers le projet original  | Ma  réalisation | Avancement du projet
 |--|--|--|
-| [SPLITTER (frontend mentor)](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX) | [SPLITTER](https://work.tokydo.com/splitter/index.html?Custom=#) | 100% -> Responsive |
+| [SPLITTER (frontend mentor)](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX) | [SPLITTER](https://work.tokydo.com/splitter/index.html?Custom=#) | 100% |
