@@ -25,10 +25,19 @@ header{
 
 }
 
+a{
+  text-decoration: none;
+  color: hsl(186, 14%, 43%);
+}
 
 h3{
   color: hsl(186, 14%, 43%);
   font-size: 12px;
+  &.tag{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 200px;
+  }
 }
 
 div{
@@ -56,7 +65,7 @@ div{
     grid-template-columns: 30% 30% 30%;
   }
   &.left{
-    width: 400px;
+    width: 350px;
     height: 100%;
     display: grid;
 
@@ -66,6 +75,7 @@ div{
   }
   &.right{
     background-color: #00494d;
+    margin-left: 30px;
     width: 500px;
     display: grid;
     grid-template-columns: 90%;
@@ -140,5 +150,48 @@ span{
   }
   &.amount{
     color:  hsl(184, 14%, 56%);
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  div{
+    &.main{
+      width: 95%;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 80px;
+    }
+    &.right{
+
+      width: 90%;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    &.left{
+      width: 80%;
+      margin-left: -30px;
+      flex-wrap: wrap;
+    }
+    &.tip-box{
+      justify-content: center;
+      width: 80%;
+    }
+    &.amount-grid{
+      display: grid;
+      grid-template-columns: 50% 25%;
+    }
+    &.input{
+      width: 80%;
+    }
+  }
+  h3{
+    &.tag{
+      margin-top: 30px;
+    }
   }
 }

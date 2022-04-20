@@ -14,9 +14,19 @@ header {
   margin-bottom: 100px;
 }
 
+a {
+  text-decoration: none;
+  color: #5e7a7d;
+}
+
 h3 {
   color: #5e7a7d;
   font-size: 12px;
+}
+h3.tag {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 200px;
 }
 
 div.main {
@@ -43,7 +53,7 @@ div.tip-box {
   grid-template-columns: 30% 30% 30%;
 }
 div.left {
-  width: 400px;
+  width: 350px;
   height: 100%;
   display: grid;
 }
@@ -52,6 +62,7 @@ div.element {
 }
 div.right {
   background-color: #00494d;
+  margin-left: 30px;
   width: 500px;
   display: grid;
   grid-template-columns: 90%;
@@ -121,6 +132,43 @@ span.price {
 }
 span.amount {
   color: #7f9c9f;
+}
+
+@media only screen and (max-width: 1200px) {
+  div.main {
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+  div.right {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.left {
+    width: 80%;
+    margin-left: -30px;
+    flex-wrap: wrap;
+  }
+  div.tip-box {
+    justify-content: center;
+    width: 80%;
+  }
+  div.amount-grid {
+    display: grid;
+    grid-template-columns: 50% 25%;
+  }
+  div.input {
+    width: 80%;
+  }
+
+  h3.tag {
+    margin-top: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
